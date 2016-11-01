@@ -73,3 +73,8 @@ This will log out:
 3
 0
 ```
+Awesome!
+
+## Conclusion / So What?
+
+Now you know how the store works in Redux. In future lessons, we'll take a deeper dive into Reducers and look at how we can connect Redux into our React applications. 
