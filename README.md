@@ -20,7 +20,7 @@ Next, let's define a reducer function in `reducers/counterReducer.js` to pass to
 
 ```javascript
 // src/reducers/counterReducer.js
-function counterReducer(state=0, action){
+export default function counterReducer(state=0, action){
   switch (action.type) {
     case 'INCREMENT_COUNT':
       return state + 1;
